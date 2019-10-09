@@ -1,0 +1,168 @@
+body {
+	min-width: 800px;
+	max-width: 1100px;
+	background-image: url(fond.png);
+	padding-left: 200px;
+}
+
+.blocGauche {
+	padding-top: 10px;
+	width: 70%;
+	background-color: #c0dedf;
+	padding-bottom: 50px;
+	 }
+
+.blocGauche1 {
+	text-align: center;
+	width: 35%;
+	display: inline-block;
+	vertical-align: text-top;
+	margin-right: 75px;
+	margin-left: 70px;
+}
+
+.blocGauche2 {
+	text-align: center;
+	width: 35%;
+	vertical-align: text-top;
+	display: inline-block;
+	 }
+
+.blocDroit {
+	width: 30%;
+	border: 5px solid #399194;;
+	background-color: #4ab7ba;
+	margin: -1060px 0px 0px 800px;	
+}
+ 
+.blocPrincipal {
+	text-align: center;
+	display: block;
+	padding-right: 175px;
+	padding-left: 175px;
+}
+
+.recipe1 {
+	float: left;
+	border-radius: 100px 100px 100px 100px;
+}
+
+.recipe2 {
+	float: left;
+	border-radius: 100px 100px 100px 100px;
+}
+
+h1 {
+	font-size: 2.5em;
+	text-align: center;	
+}
+
+.todaySpecial {
+	font-size: 3.5em;
+	text-align: center;
+}
+
+.today {
+	color: #30b2b5;
+}
+
+h2 {
+	font-size: 1.8em  
+}	 
+	
+
+h3 {
+	font-size: 1.4em; 
+}
+
+	
+h4 {
+	margin:-5px 0px -15px 0px;
+}
+
+header {
+	text-align: center;
+	height: 200px;
+	background-color: #30b2b5;
+	margin-top: 50px;
+	border-top: 5px solid #399194;
+	border-bottom: 5px solid #399194;
+}
+
+h1, h2,h3, h4, nav {
+	font-family: 'Slabo';
+	color: #3b5758;
+}
+
+nav a {
+	margin-right: 25px;
+	color: white;
+	text-decoration: none;
+}
+
+nav {
+	margin-top: 30px;
+	font-size: 25px;
+}
+
+@font-face {
+	font-family: 'Slabo';
+	src: url('Slabo27px-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Open Sans';
+src: url('OpenSans-CondBold.ttf');
+}
+
+p {
+	font-family: 'Open Sans';
+	color: #276668;
+	line-height: 30px;
+}
+
+.fa-tint {
+	color: #30b2b5;
+	font-size: 20px;
+}
+
+.news {
+	color: #9ad9dc;
+}
+
+.events {
+	color: white;
+}
+
+.vignette {
+	display: inline-block;
+	padding-left: 200px;
+	margin: -50px 0px -50px -15px; 
+	}
+
+aside, h3 {
+	margin: -10px 40px 40px 40px;
+}
+
+footer {
+	margin-top: 200px;
+	display: inline-block;
+	text-align: center;
+	padding: 25px;
+}
+
+footer img {
+	width: 25px;
+}
+
+article a {
+	float: right;
+	color: white;
+	background-color: #399194;
+	text-decoration: none; 
+	padding: 10px;
+}
+
+.fa-plus-circle {
+	margin-left: 10px;
+}
